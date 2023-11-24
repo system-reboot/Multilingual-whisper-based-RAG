@@ -1,6 +1,6 @@
 # Fine-tuned-Multilingual-whisper-based-RAG-on-hindi-dataset
 
-A real-time Retrieval-Augmented-Generation(RAG) based model to perform question answering on hindi audio data. Here, I fine-tuned the facebook's whisper-tiny model to reduce the word error rate(WER) to 74.24 for the hindi dataset. Then, I applied facebook's m2m100 module for the translation into english text. Finally, QA-BERT model is employed for achieving the qustion answering capability. The generated output is dispayed in an interface using the Gradio library.
+A real-time Retrieval-Augmented-Generation(RAG) based model to perform question answering on hindi audio data. Here, the fine-tuned facebook's whisper-tiny model downsampled the word error rate(WER) to 74.24 for the hindi dataset. 
 
 
 ## Deployment Code:
